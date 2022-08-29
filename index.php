@@ -29,7 +29,7 @@ if (mysqli_connect_errno()) {
     exit();
 }
 
-$valor_rand1 =  rand(1, 999);
+$valor_rand1 =  rand(1, 840);
 $valor_rand2 = strtoupper(substr(bin2hex(random_bytes(4)), 1));
 $host_name = gethostname();
 
